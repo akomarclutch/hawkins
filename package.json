@@ -1,6 +1,12 @@
 {
-  "name": "node-server-template",
+  
+  "name": "hawkins",
+
   "main": "server.js",
+
+  "version": "1.0.0",
+
+  "author": "Andrew Komar",
 
   "dependencies": {
     "express": "~4.5.1",
@@ -19,9 +25,14 @@
     "start": "node server.js"
   },
 
-  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/akomarclutch/hawkins"
+  },
 
-  "author": "Andrew Komar",
+  "bugs": {
+    "url": "https://github.com/akomarclutch/hawkins/issues"
+  },
 
   "license": "MIT"
 
