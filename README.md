@@ -2,13 +2,11 @@ Template node server
 ====================================================================
 
   Installing
-  ================
 
     npm install
 
 
   Dependencies (backend dependencies installed with "npm install")
-  ================
 
     Backend
     ==================
