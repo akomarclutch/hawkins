@@ -1,5 +1,16 @@
 <div class="jumbotron text-center">
   <h1>Home Page</h1>
 
-  <p>{{tagline}}</p>
+  <div class="row">
+    <div ng-repeat="week in weeks">
+      <div style="display:inline-block">{{week.day}}</div>
+      <div style="display:inline-block">{{week.date}}</div>
+      <div style="display:inline-block">
+        <select>
+          <option ng-repeat="hour in hours">{{hour}}</option>
+        </select>
+      </div>
+    </div>
+  </div>
+
 </div>

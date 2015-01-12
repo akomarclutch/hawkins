@@ -16,7 +16,7 @@ module.exports = function(grunt) {
     },
     mochaTest: {
       options: {
-        //reporter: 'nyan'
+        reporter: 'nyan'
       },
       src: ['tests/*.js']
     },
@@ -38,7 +38,6 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-jshint');
   grunt.loadNpmTasks('grunt-nodemon');
   grunt.loadNpmTasks('grunt-mocha-test');
-  //grunt.loadTasks('tasks');
 
   grunt.registerTask('test', ['jshint']);
   grunt.registerTask('default', ['jshint', 'mochaTest', 'nodemon']);
