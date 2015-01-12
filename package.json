@@ -25,11 +25,11 @@
 
   "repository": {
     "type": "git",
-    "url": "https://github.com/akomarclutch/hawkins"
+    "url": "https://github.com/WeAreClutch/hawkins"
   },
 
   "bugs": {
-    "url": "https://github.com/akomarclutch/hawkins/issues"
+    "url": "https://github.com/WeAreClutch/hawkins/issues"
   },
 
   "version": "1.0.0",
