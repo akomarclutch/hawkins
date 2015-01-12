@@ -1,4 +1,4 @@
-Template node server
+Hawkins project
 ====================================================================
 
   Installing
